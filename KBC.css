@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display', serif; */
+
+:root{
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Kaushan Script', cursive;
+    --orange-color: rgba(253,133,21,0.9);
+}
+*{
+    font-family: var(--primary-font);
+}
+.nav-item a:hover{
+    color: var(--orange-color) !important;
+}
+.banner-bottom-text-heading{
+    color: var(--orange-color);
+}
+.main-heading{
+    margin-bottom: 380px;
+    font-family: var(--secondary-font);
+    font-size: 108px;
+    transform: rotate(-25deg);
+}
+.main-heading span{
+    font-family: var(--secondary-font);
+}
+.carousel-caption img{
+    position: absolute;
+    bottom: 380px;
+    left: 65%;
+    width: 18%;
+}
+
+h2{
+   color: #141414;
+}
+.button-span{
+    margin-top: -32px;
+}
+.banner-2{
+    padding-right: 250px !important;
+}
+.video-section{
+    position: relative;
+}
+.video-content{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.video-content h2{
+    color: var(--orange-color);
+}
+.video-content p{
+    color: #cdcdcd;
+}
+.video-section .video-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.right-side{
+    position: relative;
+}
+.plate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.right-side .plate {
+    animation: round 10s linear infinite;
+}
+@keyframes round{
+    
+    0%{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(0deg);
+        
+    }
+   
+    100%{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(360deg);
+        
+    }
+}
