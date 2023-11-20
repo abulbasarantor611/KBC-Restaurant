@@ -64,6 +64,10 @@ h2{
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+.text-left {
+    padding-left: 70px;
+    padding-right: 155px;
+}
 .right-side{
     position: relative;
 }
