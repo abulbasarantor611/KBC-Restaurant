@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-/* 
-font-family: 'Kaushan Script', cursive;
-font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Kaushan+Script&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
 
 :root{
     --primary-font: 'Playfair Display', serif;
@@ -9,10 +7,10 @@ font-family: 'Playfair Display', serif; */
     --orange-color: rgba(253,133,21,0.9);
 }
 *{
-    font-family: var(--primary-font);
+    font-family: var(--primary-font) ;
 }
 .nav-item a:hover{
-    color: var(--orange-color) !important;
+    color: var(--orange-color) !important ;
 }
 .banner-bottom-text-heading{
     color: var(--orange-color);
@@ -24,9 +22,9 @@ font-family: 'Playfair Display', serif; */
     transform: rotate(-25deg);
 }
 .main-heading span{
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font) ;
 }
-.carousel-caption img{
+.carousel-caption-1 img{
     position: absolute;
     bottom: 380px;
     left: 65%;
@@ -71,30 +69,90 @@ h2{
 .right-side{
     position: relative;
 }
-.plate{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .right-side .plate {
-    animation: round 10s linear infinite;
+    animation: round 30s linear infinite;
 }
 @keyframes round{
     
     0%{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         transform: rotate(0deg);
-        
     }
    
     100%{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         transform: rotate(360deg);
-        
     }
+
+}
+
+.banner-5{
+    background-color: #1B1A1A;
+}
+
+
+
+.main-heading-1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    line-height: 75px;
+    font-family: var(--secondary-font);
+    font-size: 70px;
+    transform: rotate(-20deg);
+}
+.main-heading-1 span{
+    padding-left: 60px;
+    font-family: var(--secondary-font);
+}
+.main-heading-2{
+    position: absolute;
+    top: 350px;
+    left: 190px;
+    line-height: 60px;
+    font-family: var(--secondary-font);
+    font-size: 70px;
+    transform: rotate(-20deg);
+    color: var(--orange-color);
+}
+.main-heading-2 span{
+    font-family: var(--secondary-font);
+}
+.arrow-icon{
+    position: absolute;
+    top: 220px;
+    left: 340px;
+}
+.banner-text{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    width: 30%;
+}
+.banner-btn{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+
+
+.lunch{
+    width: 30%;
+    margin: 0 auto;
+}
+.dissert{
+    width: 23%;
+    margin: 0 auto;
+}
+.whiskey{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.heading-01{
+    color: var(--orange-color);
+}
+.text-content .p-01{
+    font-family:'Playfair Display', serif;
+    padding-right: 150px;
+    
 }
